@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: it62070120/FinalExam:1.0.0
+    ports:
+      - "8168:80"
+  backend:
+    image: it62070120/FinalExam:1.0.0
+    ports:
+      - "3168:3000"
